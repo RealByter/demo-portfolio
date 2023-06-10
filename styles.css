@@ -67,12 +67,13 @@ body {
 	justify-content: center;
 	align-items: flex-end;
 	text-align: center;
+  padding: 0 .5rem;
 }
 
 .about-me__image > h1 {
 	color: white;
 	font-family: 'Playfair display', serif;
-	font-size: 5.5vw;
+	font-size: calc(.25rem + 5vw);
 	font-weight: 400;
 	text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
 }
@@ -155,4 +156,102 @@ body {
   .about-me__icons {
     bottom: -4rem;
   }
+}
+
+.my-work {
+  margin: 5rem;
+}
+
+.my-work__title {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: 'Playfair display', serif;
+}
+
+.my-work__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.my-work__project {
+  flex: 1 0 20rem;
+  display: flex;
+  max-width: 30rem;
+  flex-direction: column;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+}
+
+.my-work__project-screenshot {
+  width: 100%;
+  aspect-ratio: 8 / 6;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: 'Playfair display', serif;
+  color: white;
+  padding: 0 2rem;
+}
+
+.my-work__project:nth-child(1) > .my-work__project-screenshot {
+  background-color: #9e1c1c;
+}
+
+.my-work__project:nth-child(2) > .my-work__project-screenshot {
+  background-color: #7c75ca;
+}
+
+.my-work__project:nth-child(3) > .my-work__project-screenshot {
+  background-color: #c363b4;
+}
+
+.my-work__project:nth-child(4) > .my-work__project-screenshot {
+  background-color: #d88f39;
+}
+
+.my-work__project:nth-child(5) > .my-work__project-screenshot {
+  background-color: #7c75ca;
+}
+
+.my-work__project:nth-child(6) > .my-work__project-screenshot {
+  background-color: #5e8f4d;
+}
+
+.my-work__project-info {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 24px;
+  gap: .75rem;
+}
+
+.my-work__project-name-and-icons {
+  display: flex;
+  align-items: center;
+}
+
+.my-work__project-name {
+  font-family: 'Playfair display', serif;
+  margin-right: auto;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.my-work__project-icons {
+	display: flex;
+	gap: 16px;
+}
+
+.my-work__project-icons > svg {
+	width: 30px;
+	height: 30px;
+}
+
+.my-work__project-description {
+  margin-bottom: 64px;
+  color: #585858;
+  font-size: 1.25rem;
+  line-height: 1.15;
 }
