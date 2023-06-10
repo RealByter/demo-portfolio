@@ -169,6 +169,14 @@ body {
 	font-family: 'Playfair display', serif;
 }
 
+@media only screen and (max-width: 53rem) {
+	.my-work__title {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+}
+
 .my-work__container {
 	display: flex;
 	flex-wrap: wrap;
@@ -334,31 +342,31 @@ body {
 		padding: 16px;
 	}
 
-  .footer__contact-request {
-    margin-top: -2rem;
-    font-weight: 400;
-  }
+	.footer__contact-request {
+		margin-top: -2rem;
+		font-weight: 400;
+	}
 
 	.footer__contact-header {
-    width: 100%;
-    text-align: center;
-  }
+		width: 100%;
+		text-align: center;
+	}
 
-  .footer__contact-details p,
-  .footer__contact-address {
-    font-size: 1.1rem !important;
-  }
+	.footer__contact-details p,
+	.footer__contact-address {
+		font-size: 1.1rem !important;
+	}
 
-  .footer__contact-details {
-    gap: .25rem;
-  }
+	.footer__contact-details {
+		gap: 0.25rem;
+	}
 
 	.footer-image {
 		width: 100%;
 		margin: 0;
 	}
 
-  .footer__contact-icons {
-    margin-inline: auto;
-  }
+	.footer__contact-icons {
+		margin-inline: auto;
+	}
 }
